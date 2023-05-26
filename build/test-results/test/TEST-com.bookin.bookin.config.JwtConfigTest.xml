@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bookin.bookin.config.JwtConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-26T12:55:54" hostname="ADITYA" time="0.961">
+<testsuite name="com.bookin.bookin.config.JwtConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-26T13:18:30" hostname="ADITYA" time="0.687">
   <properties/>
-  <testcase name="testPasswordEncoder()" classname="com.bookin.bookin.config.JwtConfigTest" time="0.961"/>
+  <testcase name="testPasswordEncoder()" classname="com.bookin.bookin.config.JwtConfigTest" time="0.687"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
