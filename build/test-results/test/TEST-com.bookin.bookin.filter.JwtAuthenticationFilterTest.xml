@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bookin.bookin.filter.JwtAuthenticationFilterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-05-26T12:55:57" hostname="ADITYA" time="0.128">
+  <properties/>
+  <testcase name="testDoFilterInternal()" classname="com.bookin.bookin.filter.JwtAuthenticationFilterTest" time="0.027"/>
+  <testcase name="testDoFilterInternal2()" classname="com.bookin.bookin.filter.JwtAuthenticationFilterTest" time="0.1"/>
+  <system-out><![CDATA[Invalid Bearer Token Format!!
+Invalid Bearer Token Format!!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

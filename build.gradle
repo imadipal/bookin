@@ -1,0 +1,52 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '2.7.7'
+	id 'io.spring.dependency-management' version '1.0.15.RELEASE'
+}
+
+group = 'com.bookin'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+
+
+	//runtimeOnly 'com.mysql:mysql-connector-j'
+
+
+
+	testImplementation 'org.springframework.security:spring-security-test'
+
+
+	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb:2.6.8'
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+	implementation 'org.springframework.kafka:spring-kafka:2.8.5'
+	implementation 'io.jsonwebtoken:jjwt:0.2'
+	implementation 'javax.xml.bind:jaxb-api:2.2.4'
+	implementation 'org.springframework.security:spring-security-jwt:1.0.11.RELEASE'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation 'org.postgresql:postgresql'
+	compileOnly 'org.projectlombok:lombok'
+	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	annotationProcessor 'org.projectlombok:lombok'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}
+

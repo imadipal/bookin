@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bookin.bookin.service.GoogleBooksServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-05-26T12:55:58" hostname="ADITYA" time="0.04">
+  <properties/>
+  <testcase name="testGetmodifiedbooks2()" classname="com.bookin.bookin.service.GoogleBooksServiceTest" time="0.012"/>
+  <testcase name="testGetmodifiedbooks3()" classname="com.bookin.bookin.service.GoogleBooksServiceTest" time="0.005"/>
+  <testcase name="testGetmodifiedbooks4()" classname="com.bookin.bookin.service.GoogleBooksServiceTest" time="0.012"/>
+  <testcase name="testGetmodifiedbooks()" classname="com.bookin.bookin.service.GoogleBooksServiceTest" time="0.001"/>
+  <testcase name="testGetRestTemplate()" classname="com.bookin.bookin.service.GoogleBooksServiceTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
